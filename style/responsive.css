@@ -7,36 +7,6 @@
       padding: 0 10px;
     }
   
-    .phone_navbar {
-      display: block;
-      width: 96%;
-      height: 50px;
-      position: fixed;
-      bottom: 20px;
-      z-index: 1000;
-      left: 50%;
-      transform: translate(-50%);
-      border-radius: 10px;
-      background-color: white;
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      list-style-type: none;
-      box-shadow: 0 4px 7px rgba(0, 0, 0, 0.15);
-    }
-    .phone_navbar li {
-      display: grid;
-      place-content: center;
-    }
-    .phone_navbar li:hover {
-      cursor: pointer;
-    }
-    .phone_navbar li img {
-      transform: scale(1);
-      transition: transform 0.4s;
-    }
-    .phone_navbar li:hover img {
-      transform: scale(1.2);
-    }
   
     header .header_wrapper {
       display: flex;
